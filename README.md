@@ -1,7 +1,7 @@
 spatial\_entropy
 ================
 
-Computes an entropy profile for an image using moving averages.
+Computes an entropy profile for an image using moving averages. Inspired by [this StackExchange thread](http://stats.stackexchange.com/questions/17109/measuring-entropy-information-patterns-of-a-2d-binary-matrix).
 
 Description
 -----------
