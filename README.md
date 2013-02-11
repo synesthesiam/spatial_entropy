@@ -20,10 +20,10 @@ Consider the following matrices:
 </tr>
 <tr>
 <td>
-![a1.jpg](https://raw.github.com/synesthesiam/spatial_entropy/master/etc/a1.jpg)
+<img src="https://raw.github.com/synesthesiam/spatial_entropy/master/etc/a1.jpg" />
 </td>
 <td>
-![a2.jpg](https://raw.github.com/synesthesiam/spatial_entropy/master/etc/a2.jpg)
+<img src="https://raw.github.com/synesthesiam/spatial_entropy/master/etc/a2.jpg" />
 </td>
 </tr>
 <tr>
@@ -32,10 +32,10 @@ Consider the following matrices:
 </tr>
 <tr>
 <td>
-![a3.jpg](https://raw.github.com/synesthesiam/spatial_entropy/master/etc/a3.jpg)
+<img src="https://raw.github.com/synesthesiam/spatial_entropy/master/etc/a3.jpg" />
 </td>
 <td>
-![a4.jpg](https://raw.github.com/synesthesiam/spatial_entropy/master/etc/a4.jpg)
+<img src="https://raw.github.com/synesthesiam/spatial_entropy/master/etc/a4.jpg" />
 </td>
 </tr>
 </table>
