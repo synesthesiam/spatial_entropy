@@ -15,8 +15,8 @@ Consider the following matrices:
 
 <table>
 <tr>
-<td><strong>A1</strong><td>
-<td><strong>A2</strong><td>
+<td><strong>A1</strong></td>
+<td><strong>A2</strong></td>
 </tr>
 <tr>
 <td>
@@ -27,8 +27,8 @@ Consider the following matrices:
 </td>
 </tr>
 <tr>
-<td><strong>A3</strong><td>
-<td><strong>A4</strong><td>
+<td><strong>A3</strong></td>
+<td><strong>A4</strong></td>
 </tr>
 <tr>
 <td>
