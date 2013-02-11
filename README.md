@@ -11,13 +11,42 @@ The program computes the entropy of a 2D image using moving averages at various 
 Examples
 --------
 
-Plot the profiles of matrices stored in text files:
+Consider the following matrices:
+
+<table>
+<tr>
+<td><strong>A1</strong><td>
+<td><strong>A2</strong><td>
+</tr>
+<tr>
+<td>
+![a1.jpg](https://raw.github.com/synesthesiam/spatial_entropy/master/etc/a1.jpg)
+</td>
+<td>
+![a2.jpg](https://raw.github.com/synesthesiam/spatial_entropy/master/etc/a2.jpg)
+</td>
+</tr>
+<tr>
+<td><strong>A3</strong><td>
+<td><strong>A4</strong><td>
+</tr>
+<tr>
+<td>
+![a3.jpg](https://raw.github.com/synesthesiam/spatial_entropy/master/etc/a3.jpg)
+</td>
+<td>
+![a4.jpg](https://raw.github.com/synesthesiam/spatial_entropy/master/etc/a4.jpg)
+</td>
+</tr>
+</table>
+
+Plot the profiles of the binary matrices stored in text files:
 
     $ python spatial_entropy.py etc/*.txt --plot profile-matrices.png --matrix
 
 ![profile-matrices.png](https://raw.github.com/synesthesiam/spatial_entropy/master/profile-matrices.png)
 
-Plot the profiles of images using a maximum window size of 10:
+Plot the profiles of actual image files using a maximum window size of 10:
 
     $ python spatial_entropy.py etc/*.jpg --plot profile-images.png --size 10 --legend "upper left"
 
