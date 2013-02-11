@@ -40,7 +40,33 @@ Consider the following matrices:
 </tr>
 </table>
 
-Plot the profiles of the binary matrices stored in text files:
+Print the entropy profiles of the binary matrices (stored in text files) for all window sizes:
+
+    python spatial_entropy.py etc/*.txt --matrix --profile
+    # Using size = 4
+    # image entropy size
+    "etc/a1.txt" 0.970950594455 1
+    "etc/a1.txt" 0.988699408288 2
+    "etc/a1.txt" 0.918295834054 3
+    "etc/a1.txt" 1.5 4
+    "etc/a2.txt" 0.998845535995 1
+    "etc/a2.txt" 2.12661447181 2
+    "etc/a2.txt" 1.53049305676 3
+    "etc/a2.txt" 0.811278124459 4
+    "etc/a3.txt" 0.942683189255 1
+    "etc/a3.txt" 1.5 2
+    "etc/a3.txt" 1.39214722366 3
+    "etc/a3.txt" -0 4
+    "etc/a4.txt" 0.998845535995 1
+    "etc/a4.txt" -0 2
+    "etc/a4.txt" 0.991076059838 3
+    "etc/a4.txt" -0 4
+    "etc/a5.txt" 0.970950594455 1
+    "etc/a5.txt" 1.0 2
+    "etc/a5.txt" 0.918295834054 3
+    "etc/a5.txt" -0 4
+
+Plot the profiles of the binary matrices:
 
     $ python spatial_entropy.py etc/*.txt --plot profile-matrices.png --matrix
 
